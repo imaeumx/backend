@@ -25,6 +25,8 @@ SECRET_KEY = 'django-insecure-%etvmaxknw74$f$!m)6wa3#(@$q949ovqd*#9-78nkdoeuu^7^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CSRF_TRUSTED_ORIGINS = ["https://peitel-backend-yoj4.onrender.com",]
+
 ALLOWED_HOSTS = ['http://127.0.0.1:8000/', '127.0.0.1:8000', '127.0.0.1', 'http://192.168.30.207:8000/', '192.168.30.207:8000', '192.168.30.207']
 
 
