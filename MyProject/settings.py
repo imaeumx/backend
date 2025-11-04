@@ -27,7 +27,7 @@ DEBUG = True
 
 CSRF_TRUSTED_ORIGINS = ["https://peitel-backend-yoj4.onrender.com",]
 
-ALLOWED_HOSTS = ['https://peitel-backend-yoj4.onrender.com', 'https://peitel-backend-yoj4.onrender.com', 'http://127.0.0.1:8000/', '127.0.0.1:8000', '127.0.0.1', 'http://192.168.30.207:8000/', '192.168.30.207:8000', '192.168.30.207']
+ALLOWED_HOSTS = ['peitel-backend-yoj4.onrender.com', 'http://127.0.0.1:8000/', '127.0.0.1:8000', '127.0.0.1', 'http://192.168.30.207:8000/', '192.168.30.207:8000', '192.168.30.207']
 
 
 # Application definition
