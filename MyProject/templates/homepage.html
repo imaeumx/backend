@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Homepage — User Registration Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #F8F4EC;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background: #FFC4C4;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    h1 {
+      color: #850E35;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 30px;
+      color: #92487A;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #850E35;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #EE6983;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome to the User Registration Demo</h1>
+    <p>Click below to log in and get started.</p>
+    <a href="{% url 'registration:login_html' %}" class="btn">Go to Login</a>
+  </div>
+</body>
+</html>
